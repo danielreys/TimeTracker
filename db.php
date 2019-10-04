@@ -8,8 +8,7 @@ try {
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
-    console.log("Connection failed: " . $e->getMessage());
-    alert('connection failed');
+    echo $e->getMessage();
 }
 
 function sumarHoras($horas) {
