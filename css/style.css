@@ -1,0 +1,135 @@
+html, body {height:100%;}
+html {display:table; width:100%;}
+body {display:table-cell; text-align:center; vertical-align:middle;}
+span{
+    font-size:25px;
+}
+/* Table results*/
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 25px;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+
+  #hours,#mins,#seconds {
+    font-size: 60px !important;
+  }
+  * Basic Styles */
+.custom-button {
+  position: relative;
+  color: #fff;
+  margin: 5px;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: block;
+  outline: none;
+  line-height: 100%;
+  overflow: hidden;
+  height: 200px;
+  padding: 10px 25px;
+}
+.custom-button:hover {
+  text-decoration: none;
+}
+.custom-button .icon {
+  float: right;
+}
+.custom-button.icon{
+display: inline-block;
+}
+.custom-button:active .icon,
+.custom-button:focus .icon {
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  transform: scale(0.75);
+}
+
+/* Colors */
+.green {
+  background-color: #2ecc71;
+}
+.green:hover {
+  color: #2ecc71;
+  background-color: #fff;
+}
+
+.blue {
+  background-color: #3498db;
+}
+.blue:hover {
+  color: #3498db;
+  background-color: #fff;
+}
+
+.orange {
+  background-color: #e67e22;
+}
+.orange:hover {
+  color: #e67e22;
+  background-color: #fff;
+}
+
+/* Effects */
+.basic {
+  -webkit-transition: all 0.35s ease;
+  -moz-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.lila {
+  background-color: #8e44ad;
+  margin-top: 30px;
+}
+.lila:hover {
+  color: #8e44ad;
+  background-color: #fff;
+}
+.btns{
+  margin-top:10px;
+}
+
+/*Responsive*/
+@media only screen and (max-height:600px) {
+  .wrap{
+    display: block;
+  }
+  #taskName{
+    margin-top:30px !important;
+  }
+ .btns{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+ }
+}
+
+button,
+input,
+a,
+label {
+  display: inline-block;
+  font-family: arial;
+  background: none;
+  margin-top:10px;
+  border: 1px solid grey;
+  color: black;
+  font-size: 35px;
+  outline: none;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#nofity
+{
+  font-size: 35px;
+}
