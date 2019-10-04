@@ -1,5 +1,5 @@
 <?php
-require_once "db.php";
+include "db.php";
 $task = $_POST['task']; //name of the task
 $day = $_POST['day'];   //day for the search
 $time = $_POST['time'];  // time spended in the task
