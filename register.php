@@ -40,6 +40,6 @@ if(!$result)
     echo $result->errorCode();
 }
 else {
-    header('Location: http://localhost:8080/TimeTracker/?message={$message}');
+    header('Location: https://danielreyes1998.000webhostapp.com/?message={$message}');
 }
 ?>
